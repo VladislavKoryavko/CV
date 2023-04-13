@@ -79,7 +79,7 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ng-cv:build:production1"
+              "browserTarget": "ng-cv:build:production"
             },
             "development": {
               "browserTarget": "ng-cv:build:development"
