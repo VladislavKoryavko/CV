@@ -47,7 +47,8 @@ jobs:
       #   run: npm install -g @angular/cli@latest
 
       - name: Build
-        run: npm run build --omit=dev
+        run: npm run build -c=production --localize
+        #run: npm run build --omit=dev
 
       # - name: Lint
       #   run: npm run lint
