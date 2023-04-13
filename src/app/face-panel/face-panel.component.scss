@@ -1,0 +1,65 @@
+.info {
+    margin: auto;
+    box-shadow: -4px 7px 15px 1px rgba(0, 0, 0, 0.2);
+}
+
+.info-header {
+    background: #2EB474;
+    padding: 10% 10% 1%;
+    color: #ffffff;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.info-text {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+}
+
+.fio {
+    // margin-top: 5px;
+    font-size: 37px;
+}
+
+.speciality {
+    margin: 5px 0;
+    font-size: 23px;
+}
+
+.lang-img {
+    margin: 5px;
+    width: 27px;
+    height: 27px;
+}
+
+.contacts {
+    padding: 10px 10px;
+    background-color: white;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Advent Pro', cursive;
+}
+
+.contacts .material-icons {
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+.contact-item {
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 700px) {
+    
+    .info {
+        max-width: 80%;
+    }
+}

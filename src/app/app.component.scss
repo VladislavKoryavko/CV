@@ -1,0 +1,38 @@
+#crtBgShape1,
+#crtBgShape2 {
+    position: fixed;
+    z-index: -1;
+}
+
+#crtBgShape1 {
+    top: 0;
+    left: 0;
+    fill: #d0d0d0;
+}
+
+#crtBgShape2 {
+    right: -100px;
+    top: -100px;
+    fill: #2EB474;
+}
+
+.wrapper {
+    padding: 2%;
+    box-sizing: border-box;
+    display: block;
+    background-color: transparent;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
