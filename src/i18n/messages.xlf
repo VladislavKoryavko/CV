@@ -37,13 +37,12 @@
           <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6405494240315217759" datatype="html">
+      <trans-unit id="localized-id-work-experience" datatype="html">
         <source>Work Experience</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
           <context context-type="linenumber">54</context>
         </context-group>
-        <note priority="1" from="description">localized-id-work-experience</note>
       </trans-unit>
       <trans-unit id="work-position-tulaco" datatype="html">
         <source>Backend Developer</source>

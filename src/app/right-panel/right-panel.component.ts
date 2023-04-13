@@ -51,7 +51,7 @@ export class RightPanelComponent {
       }]
     },
     {
-      title: $localize`:localized-id-work-experience:Work Experience`,
+      title: $localize`:@@localized-id-work-experience:Work Experience`,
       cvPartItems: [{
         title: 'TULACO',
         subtitle: '2022 - 2023',
