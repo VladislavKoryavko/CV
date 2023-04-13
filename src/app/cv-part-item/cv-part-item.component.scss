@@ -1,0 +1,35 @@
+.cv-part-item {
+    text-align: center;
+    //font-family: 'Lobster', cursive;
+    // font-family: 'Delius', cursive;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.cv-part-item-title {
+    font-size: 37px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.cv-part-item-subtitle {
+    font-size: 23px;
+    font-weight: normal;
+    word-wrap: nowrap;
+}
+
+.cv-part-item-paragraphHeading {
+    padding: 0 10px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.cv-part-item-paragraph {
+    margin-top: 5px;
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.seporator {
+    margin: 20px 10%;
+    width: 80%;
+}

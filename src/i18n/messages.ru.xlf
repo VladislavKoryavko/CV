@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2"
+  xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="ru" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="fio" datatype="html">
+        <source>Vladislav Korauko</source>
+        <target>Владислав Корявко</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/face-panel/face-panel.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="speciality" datatype="html">
+        <source>Software developer</source>
+        <target>Программист Разработчик</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/face-panel/face-panel.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="localized-id-about-me" datatype="html">
+        <source>About me</source>
+        <target>Обо мне</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="welcome" datatype="html">
+        <source>Welcome to my page!</source>
+        <target>Добро Пожаловать!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="my-name" datatype="html">
+        <source>My name is Vladislav, and I am a Programmer</source>
+        <target>Меня зовут Владислав, я Программист</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about-me-tex" datatype="html">
+        <source>Since childhood, programming and exact sciences have been my passion. In many of them, I won prizes both at school and city Olympiads. The first practical application of my knowledge was the creation of various electronic devices based on microcontrollers. While studying at the Polytechnic, I had the opportunity to participate in competitions of scientific and technical creativity, where, having passed the district and regional stages, I won a prize in the Republican competitions. Over time, the hobby grew into a job, during which I happened to use many advanced programming and microelectronic technologies. Once, having accepted an offer that was interesting to me, I left my passion for a while and plunged into a new path of management with great interest. For four years, I served as an assistant to the general director in a trading and manufacturing company. Planning the work process, business correspondence, preparing meetings and conferences, setting tasks, and monitoring their implementation, have become my daily activities. In the flow of multitasking, my tourist soul was always especially pleased with the next training camp and preparation for our wonderful team building, which, with the light hand of our beloved Director, constantly took place in new and always exotic places. Having gained experience, I decided to try my hand at business and went on a free voyage. Having successfully completed one ambitious order, my short voyage was interrupted by the coronavirus pandemic. Under these conditions, having received job offers, I accepted it, deciding not to tempt fate in the coming unpredictable economic situation. After that, I had the opportunity to create an automated system for managing and controlling business processes, write software for a wide range of laboratory installations, and develop a backend for modern Internet applications</source>
+        <target>С детства программирование и точные науки были моим увлечением. По многим из них я занимал призовые места как на школьных олимпиадах, так и на городских. Первым практическим применением моих знаний стало создание различных электронных устройств на базе микроконтроллеров. Во время учёбы в политехникуме мне доводилось участвовать в конкурсах научно-технического творчества, где пройдя районные и областные этапы, занял призовое место в Республиканских соревнованиях.  Со временем хобби переросло в работу, в процессе которой мне довелось использовать большое количество передовых технологий программирования и микроэлектроники. Однажды приняв интересное мне предложение, я оставил на время моё увлечение и с большим интересом погрузился в новую для меня стезю менеджмента. На протяжении четырёх лет я выполнял функции помощника генерального директора в торгово-производственной компании. Планирования рабочего процесса, деловая переписка, подготовка встреч и совещаний, постановка задач и контроль их выполнения, стали повседневными моими делами. В потоке многозадачности, мою туристические душу, всегда особенно радовали очередные сборы и подготовка к нашим прекрасным тимбилдингам, которые с легкой руки нашего любимого Директора, постоянно проходили в новых и всегда экзотических местах. Набравшись опыта, я решил попробовать себя в деле и отправился в свободное плавание. Успешно выполнив один амбициозный заказ, моё недолгое плавание прервала пандемия коронавируса. В этих условиях получив предложения работы, я принял его, решив не искушать судьбу в грядущей непредсказуемой экономической ситуации. После этого мне довелось создавать автоматизированную систему для управления и контроля бизнес-процессов, писать программное обеспечения для большого спектра лабораторных установок и заниматься разработкой бэкенда для современных интернет-приложений.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7742281382426386000" datatype="html">
+        <source>Work Experience</source>
+        <target>Опыт работы</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <note priority="1" from="description">localized-id-work-experience</note>
+      </trans-unit>
+      <trans-unit id="work-position-tulaco" datatype="html">
+        <source>Backend Developer</source>
+        <target>Бэкэнд Разработчик</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-description-tulaco" datatype="html">
+        <source>Developed back-end applications for hhglobal.com and stylerow.com projects. My responsibilities included writing RESTful API contracts and implementing them, creating and changing application logic, modifying the database and writing stored procedures, implementing caching, migrating from .NET Core 3.1 to .NET Core 6.0, setting up Docker. Worked with technologies: C#, .NET Core 3.1 - 6.0, Entity Framework, T-SQL, Elasticsearch, Redis, Git, Docker, Swagger, Postman, AWS, QuickBooks, Pardot, Twilio</source>
+        <target>Разрабатывал серверную часть приложений для проектов hhglobal.com и stylerow.com. В мои обязанности входило написание RESTful API контрактов и их реализация, создание и изменение логики приложений, модификация базы данных и написания хранимых процедур, реализация кеширования, миграция с .NET Core 3.1 на .NET Core 6.0, настройка Docker. Работал с технологиями:  C#, .NET Core 3.1 – 6.0, Entity Framework, T-SQL, Elasticsearch, Redis, Git, Docker, Swagger, Postman, AWS, QuickBooks, Pardot, Twilio.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-name-didactika" datatype="html">
+        <source>Didactika</source>
+        <target>Дидактика</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-position-didactika" datatype="html">
+        <source>Desktop Developer and System Administrator</source>
+        <target>Десктоп Разработчик / Системный Администратор</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-description-didactika" datatype="html">
+        <source>Developed desktop applications for laboratory equipment. Created a common application that integrates software for the entire range of manufactured equipment, introduced a common standard for the software being created, automated and optimized the process of creating applications. Made a migration from .net framework to .net core 3.1. Worked with technologies: C#, .NET Framework, .NET Core 3.1, Entity Framework, Git, SQL, SQLite, WPF, MVVM.</source>
+        <target>Разрабатывал десктопные приложения для лабораторного оборудования. Создал общее приложение интегрирующее в себе ПО для всего спектра выпускаемого оборудования, внедрил общий стандарт для создаваемого ПО, автоматизировал и оптимизировал процесс создания приложений. Произвёл миграцию с .net framework на .net core 3.1. Работал с технологиями: C#, .NET Framework, .NET Core 3.1, Entity Framework, Git, SQL, SQLite, WPF, MVVM.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-name-glavmolsnab" datatype="html">
+        <source>Glavmolsnab</source>
+        <target>Главмолснаб</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-position-glavmolsnab-programmer" datatype="html">
+        <source>Software Developer</source>
+        <target>Разработчик программного обеспечения</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-description-glavmolsnab-programmer" datatype="html">
+        <source>Creation and implementation of an automated sales management system that combines enterprise servers, specialists in remote offices working on a PC, and specialists in the &quot;fields&quot; working from a smartphone or tablet. This software solution allows you to plan sales based on existing data, set and redirect personal tasks to employees, monitor their implementation/deadlines, calculate bonuses, and compile reports.</source>
+        <target>Создание и внедрение автоматизированной системы управления продажами, объединяющий в себе сервера предприятия, специалистов в удалённых офисах работающих на ПК, и специалистов в "полях" работающих со смартфона или планшета. Данное программное решение позволяет планировать продажи опираясь на имеющиеся данные, ставить и перенаправлять персональные задачи сотрудникам, контролировать их выполнение/сроки, рассчитывать бонусы, составлять отчёты.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-name-frilance" datatype="html">
+        <source>Frilance</source>
+        <target>Фриланс</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-position-frilance-soft-hard-developer" datatype="html">
+        <source>Software and Hardware Developer</source>
+        <target>Разработчик программного обеспечения и электронных приборов</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-description-frilance-soft-hard-developer" datatype="html">
+        <source>Implementation of projects for automation of production processes using LCD/TFT, USB, TCP/IP, http/https, Touch screen, USART, TWI, Modbus, SPI, ADC, DAC... technologies: design of circuit diagrams, design and manufacture of printed boards, software development for microcontrollers, assembly and adjustment, maintenance of the implemented equipment.</source>
+        <target>Реализация проектов автоматизации производственных процессов с использованием технологий LCD/TFT, USB, TCP/IP, http/https, Touch screen, USART, TWI, Modbus, SPI, ADC, DAC...: проектирование схем принципиальных электрических схем, проектирование и изготовление печатных плат, разработка программного обеспечения для микроконтроллеров, сборка и наладка, обслуживание реализованного оборудования.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-position-glavmolsnab-ceo-assist" datatype="html">
+        <source>CEO Assistant</source>
+        <target>Помощник генерального директора</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-description-glavmolsnab-ceo-assist" datatype="html">
+        <source>Optimization of the work schedule, preparation for meetings and meetings, taking minutes, setting and monitoring the implementation of tasks, preliminary analysis of the documentation provided (reports, applications, schedules, plans), providing the necessary information, conducting business correspondence, assisting in the coordination and communication of business units, conducting pre-selection and interviews, fulfillment of personal assignments of the head.</source>
+        <target>Оптимизация рабочего графика, подготовка к собраниям и заседаниям, ведение протоколов, постановка и контроль выполнения задач, предварительный анализ предоставляемой документации (отчётов, заявок, графиков, планов), обеспечение необходимой информацией, ведение деловой переписки, помощь в координации и коммуникации подразделений предприятия, проведение предварительного отбора и собеседований, выполнение личных поручений руководителя.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-position-frilance-microelectronics-developer" datatype="html">
+        <source>Developer of software, microcontroller systems and automation</source>
+        <target>Разработчик программного обеспечения, микроконтроллерных систем и автоматики</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-description-frilance" datatype="html">
+        <source>Developer of software, microcontroller systems and automation Created a system of identification by ID card and visit control. Power load remote control system, Devices for reading human physiological parameters. Designed and assembled control units for various technological processes.</source>
+        <target>Создал систему идентификации по ИД карте и контроля посещения. Систему удалённого управления силовой нагрузкой, Устройства считывания физиологических показателей человека. Проектировал и собирал блоки управления для различных технологических процессов.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-name-remavt" datatype="html">
+        <source>Remavt</source>
+        <target>Ремавт</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-position-remavt" datatype="html">
+        <source>Electrical Technician</source>
+        <target>Техник-электрик</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work-description-remavt" datatype="html">
+        <source>Maintenance of electrical equipment.</source>
+        <target>Обслуживание электрооборудование.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills" datatype="html">
+        <source>Skills</source>
+        <target>Навыки</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education" datatype="html">
+        <source>Education</source>
+        <target>Образование</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-name-school" datatype="html">
+        <source>School № 42, Mogilev</source>
+        <target>Школа № 42, г. Могилёва</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-achievements" datatype="html">
+        <source>Achievements:</source>
+        <target>Достижения:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-achievements-school-school-level-title" datatype="html">
+        <source>Prize places at school Olympiads:</source>
+        <target>Призовые места на школьных олимпиадах:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-achievements-school-school-level-math" datatype="html">
+        <source>1st place in mathematics</source>
+        <target>1 место по математике</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-achievements-school-school-level-physics" datatype="html">
+        <source>1st place in physics</source>
+        <target>1 место по физике</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-achievements-school-school-level-geography" datatype="html">
+        <source>1st place in geography</source>
+        <target>1 место по географии</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-achievements-school-school-level-programming" datatype="html">
+        <source>2nd place in programming</source>
+        <target>2 место по программированию</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-achievements-school-school-level-history" datatype="html">
+        <source>3rd in history</source>
+        <target>3 место по истории</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-achievements-school-city-level-title" datatype="html">
+        <source>Prize places at city Olympiads:</source>
+        <target>Призовые места на городских олимпиадах:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-achievements-school-city-level-programming" datatype="html">
+        <source>1st place among 9th grade students</source>
+        <target>1 место среди учеников 9-ых классов</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-achievements-school-city-level-mathematics" datatype="html">
+        <source>2nd place at the City mathematics Olympiad</source>
+        <target>2 место</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-name-college" datatype="html">
+        <source>Polytechnic College, Mogilev</source>
+        <target>Полетехнический колледж, Могилёв</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-achievements-college-3rd" datatype="html">
+        <source>3rd place at the Republican competition of inventors and innovators</source>
+        <target>3 место на Республиканском конкурсе изобретателей и рационализаторов</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-achievements-college-5th" datatype="html">
+        <source>5th place at the Republican competition of inventors and innovators</source>
+        <target>5 место на Республиканском конкурсе изобретателей и рационализаторов</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-achievements-college-diploma" datatype="html">
+        <source>Diploma of the President for technical creativity</source>
+        <target>Диплом Президента за техническое творчество</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-name-university" datatype="html">
+        <source>Belarusian Russian University, Mogilev</source>
+        <target>Белорусско-Российский Университет, Могилёв</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education-achievements-text-university" datatype="html">
+        <source>Not finished, stopped studying at my own request</source>
+        <target>Не окончил, прекратил обучение по собственному желанию</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="interests" datatype="html">
+        <source>Interests</source>
+        <target>Интересы</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="travel" datatype="html">
+        <source>Travel</source>
+        <target>Путешествия</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="electronics" datatype="html">
+        <source>Electronics</source>
+        <target>Электроника</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="climbing" datatype="html">
+        <source>Climbing</source>
+        <target>Скалолазание</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="exact-sciences" datatype="html">
+        <source>Exact sciences</source>
+        <target>Точные науки</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="photography" datatype="html">
+        <source>Photography</source>
+        <target>Фотография</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="snowboard" datatype="html">
+        <source>Snowboard</source>
+        <target>Сноуборд</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="history" datatype="html">
+        <source>History</source>
+        <target>История</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+}
+
+app-face-panel {
+    min-width: 250px;
+}
+
+#dividor {
+    min-width: 2%;
+    min-height: 20Px;
+}
+
+app-right-panel {
+    min-width: 68%;
+}
+
+@media (max-width: 700px) {
+
+    .container {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (mix-width: 767px) {
+    .container {
+
+    }
+}
+
+@media (mix-width: 992px) {
+    .container {
+        
+    }
+}
