@@ -1,4 +1,4 @@
-name: cv-build-and-deploy-started-by-${{GITHUB_EVENT_NAME}}
+name: cv-build-and-deploy
 
 on:
   push:
