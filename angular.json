@@ -73,7 +73,7 @@
               ]
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "ru"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
@@ -116,18 +116,7 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "configurations": {
-            "production": {
-              "browserTarget": "ng-cv:build:ru"
-            },
-            "development": {
-              "browserTarget": "ng-cv:build:development"
-            },
-            "ru": {
-              "browserTarget": "ng-cv:build:ru"
-            }
-          }
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
