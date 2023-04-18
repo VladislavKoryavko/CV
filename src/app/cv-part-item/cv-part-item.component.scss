@@ -1,14 +1,14 @@
 .cv-part-item {
     text-align: center;
     //font-family: 'Lobster', cursive;
-    // font-family: 'Delius', cursive;
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Delius', cursive;
+    //font-family: 'Advent Pro', sans-serif;
 }
 
 .cv-part-item-title {
-    font-size: 37px;
+    font-size: 33px;
     font-weight: normal;
-    font-style: italic;
+    //font-style: italic;
 }
 
 .cv-part-item-subtitle {
@@ -32,4 +32,9 @@
 .seporator {
     margin: 20px 10%;
     width: 80%;
+
+    @media (max-width: 700px) {
+        margin: 2% 0;
+        width: 100%;
+    }
 }

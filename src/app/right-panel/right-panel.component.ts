@@ -98,7 +98,7 @@ export class RightPanelComponent {
     {
       title: $localize`:@@skills:Skills`,
       cvPartItems: [{
-        subtitle: 'C, C++, std, stl, C#, .Net framework, .Net Core, Entity Framework, NuGet, SQL, T-SQL, SQLite, Redis, Elasticsearch, Git, SourceTree, Docker, CI/CD, VS, VS Code, Rider, Swagger, Postman, AWS, QuickBooks, Pardot, Twilio, DI, WPF, WVC, MVVM, OOP, Patterns, JavaScript, TypeScript, HTML, YAML, DOM, CSS, SCSS, HTTP, RESTful, 1C'
+        subtitle: 'C, C++, std, stl, C#, .Net framework, .Net Core, Entity Framework, NuGet, SQL, T-SQL, SQLite, Redis, Elasticsearch, Git, SourceTree, Docker, CI/CD, VS, VS Code, Rider, Swagger, Postman, AWS, DI, WPF, WVC, MVVM, OOP, Patterns, JavaScript, TypeScript, Angular, HTML, YAML, DOM, CSS, SCSS, HTTP, RESTful, VBA, 1C'
       }]
     },
     {
@@ -170,6 +170,10 @@ export class RightPanelComponent {
       {
         title: $localize`:@@photography:Photography`,
         iconSrc: 'https://cdn-icons-png.flaticon.com/128/954/954560.png'
+      },
+      {
+        title: $localize`:@@computer-science:Computer science`,
+        iconSrc: 'https://cdn-icons-png.flaticon.com/512/10306/10306099.png '
       }]
     },
   ]

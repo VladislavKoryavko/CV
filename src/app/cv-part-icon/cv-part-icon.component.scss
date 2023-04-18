@@ -1,7 +1,9 @@
 .icon-with-title {
-    margin-bottom: 15px;
+    max-width: 123px;
+    padding: 5%;
     text-align: center;
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Delius', cursive;
+    //font-family: 'Advent Pro', sans-serif;
     font-size: 21px;
     font-weight: normal;
 }
@@ -12,4 +14,8 @@
     display: block;
     width: 43px;
     height: 43px;
+}
+
+.title {
+    flex-wrap: wrap;
 }

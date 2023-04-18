@@ -1,8 +1,12 @@
 <div class="cv-part">
     <div class="part-header">
-        <img class="decoration" src="assets/images/decorators/left-decoration.png">
+        <div>
+            <img class="decoration" src="assets/images/decorators/left-decoration.png">
+        </div>
         <div class="part-title"> {{cvPart.title}}</div>
-        <img class="decoration" src="assets/images/decorators/right-decoration.png">
+        <div>
+            <img class="decoration" src="assets/images/decorators/right-decoration.png">
+        </div>
     </div>
     <div class="part-body">
         <app-cv-part-item *ngFor="let cvPartItem of cvPart.cvPartItems" [cvPartItem]="cvPartItem"></app-cv-part-item>
