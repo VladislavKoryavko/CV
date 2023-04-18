@@ -16,7 +16,10 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "ru": "src/i18n/messages.ru.xlf"
+          "ru": {
+            "translation": "src/i18n/messages.ru.xlf",
+            "baseHref": ""
+          }
         }
       },
       "architect": {
@@ -111,6 +114,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
