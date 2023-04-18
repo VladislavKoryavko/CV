@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build -c=production --localize",
-    "deploy": "ng deploy --base-href=/CV/ --build-target=ru",
+    "deploy": "ng deploy --base-href=/CV/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

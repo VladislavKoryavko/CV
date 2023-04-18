@@ -18,7 +18,7 @@
         "locales": {
           "ru": {
             "translation": "src/i18n/messages.ru.xlf",
-            "baseHref": "ru"
+            "baseHref": ""
           }
         }
       },
@@ -73,7 +73,7 @@
               ]
             }
           },
-          "defaultConfiguration": "ru"
+          "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
