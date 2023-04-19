@@ -1,4 +1,7 @@
 .cv-part {
+    transform: translate(0px, 100px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
     margin-bottom: 20px;
     box-shadow: -4px 7px 15px 1px rgba(0, 0, 0, 0.2);
     background-color: white;
@@ -7,6 +10,11 @@
     @media (max-width: 700px) {
         padding: 5% 5% 0;
     }
+}
+
+.cv-part.visible {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 .part-header {
