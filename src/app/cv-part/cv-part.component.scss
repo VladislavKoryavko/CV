@@ -1,5 +1,5 @@
 .cv-part {
-    transform: translate(0px, 100px);
+    transform: translateY(100px);
     opacity: 0;
     transition: all 0.8s ease 0s;
     margin-bottom: 20px;
@@ -7,14 +7,14 @@
     background-color: white;
     padding: 20px 20px 0;
 
+    &.visible {
+        transform: translate(0);
+        opacity: 1;
+    }
+
     @media (max-width: 700px) {
         padding: 5% 5% 0;
     }
-}
-
-.cv-part.visible {
-    transform: translate(0px, 0px);
-    opacity: 1;
 }
 
 .part-header {
@@ -34,11 +34,32 @@
 .decoration {
     height: 29px;
     max-width: 100%;
+    opacity: 0;
+    transition: all 1.8s ease 0s;
+
+    &.left {
+        transform: translateX(-50%);
+    }
+
+    &.right {
+        transform: translateX(50%);
+    }
+
+    &.visible {
+        transform: translate(0);
+        opacity: 1;
+    }
 }
 
 .part-title {
     margin: 0px 15px 7px;
     line-height: 80%;
+    transition: all 1.5s ease 0s;
+    transform: translateY(-33%) scale(1.5);
+
+    &.visible {
+        transform: translate(0) scale(1);
+    }
 
     @media (max-width: 700px) {
         margin: 0px 2% 1%;

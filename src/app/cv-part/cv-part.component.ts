@@ -1,4 +1,4 @@
-import { Component, HostListener, Input } from '@angular/core';
+import { Component, ElementRef, HostListener, Input } from '@angular/core';
 import { ITitledFillableContainer } from '../right-panel/right-panel.component';
 
 
@@ -9,15 +9,13 @@ import { ITitledFillableContainer } from '../right-panel/right-panel.component';
 })
 export class CvPartComponent {
   static cvPartNumber: number = 0;
-  readonly id: string;
   isVisible = false;
 
-  constructor() {
+  constructor(private element: ElementRef) {
     var num = ++CvPartComponent.cvPartNumber;
-    this.id = this.constructor.name + "-" + num;
 
     if (num === 1) {
-      setTimeout(() => { this.isVisible = true; }, 500);
+      setTimeout(() => { this.isVisible = true; }, 700);
     }
   }
 
@@ -28,13 +26,10 @@ export class CvPartComponent {
 
   @HostListener('document:scroll', ['$event'])
   public onViewportScroll() {
-    const windowHeight = window.innerHeight;
-    const bounding = document.getElementById(this.id)?.getBoundingClientRect();
+    const elementField = this.element.nativeElement.getBoundingClientRect();
 
-    if (bounding) {
-      if (bounding.top < windowHeight) {
-        setTimeout(() => { this.isVisible = true; }, 500);
-      }
+    if (elementField.top < window.innerHeight) {
+      setTimeout(() => { this.isVisible = true; }, 500);
     }
   }
 }
