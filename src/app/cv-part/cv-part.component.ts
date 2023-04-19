@@ -9,13 +9,13 @@ import { ITitledFillableContainer } from '../right-panel/right-panel.component';
 })
 export class CvPartComponent {
   static cvPartNumber: number = 0;
-  isVisible = false;
+  isAppeared: boolean = false;
 
   constructor(private element: ElementRef) {
     var num = ++CvPartComponent.cvPartNumber;
 
     if (num === 1) {
-      setTimeout(() => { this.isVisible = true; }, 700);
+      setTimeout(() => { this.isAppeared = true; }, 700);
     }
   }
 
@@ -29,7 +29,7 @@ export class CvPartComponent {
     const elementField = this.element.nativeElement.getBoundingClientRect();
 
     if (elementField.top < window.innerHeight) {
-      setTimeout(() => { this.isVisible = true; }, 500);
+      setTimeout(() => { this.isAppeared = true; }, 500);
     }
   }
 }
