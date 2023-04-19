@@ -1,5 +1,6 @@
 import { Component, ElementRef, HostListener, Input } from '@angular/core';
 import { ITitledFillableContainer } from '../right-panel/right-panel.component';
+import { IEmerging } from '../../interfaces/animation-interfaces'
 
 
 @Component({
@@ -7,7 +8,7 @@ import { ITitledFillableContainer } from '../right-panel/right-panel.component';
   templateUrl: './cv-part.component.html',
   styleUrls: ['./cv-part.component.scss']
 })
-export class CvPartComponent {
+export class CvPartComponent implements IEmerging {
   static cvPartNumber: number = 0;
   isAppeared: boolean = false;
 
