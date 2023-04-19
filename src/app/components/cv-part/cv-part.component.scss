@@ -7,7 +7,7 @@
     background-color: white;
     padding: 20px 20px 0;
 
-    &.visible {
+    &.appeared {
         transform: translate(0);
         opacity: 1;
     }
@@ -45,7 +45,7 @@
         transform: translateX(50%);
     }
 
-    &.visible {
+    &.appeared {
         transform: translate(0);
         opacity: 1;
     }
@@ -57,7 +57,7 @@
     transition: all 1.5s ease 0s;
     transform: translateY(-33%) scale(1.5);
 
-    &.visible {
+    &.appeared {
         transform: translate(0) scale(1);
     }
 

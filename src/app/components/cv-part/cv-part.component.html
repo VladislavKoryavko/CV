@@ -1,12 +1,12 @@
-<div class="cv-part" [ngClass]="{visible: isVisible}">
+<div class="cv-part" [ngClass]="{appeared: isAppeared}">
     <div class="part-header">
         <div>
-            <img class="decoration left" [ngClass]="{visible: isVisible}"
+            <img class="decoration left" [ngClass]="{appeared: isAppeared}"
                 src="assets/images/decorators/left-decoration.png">
         </div>
-        <div class="part-title" [ngClass]="{visible: isVisible}"> {{cvPart.title}}</div>
+        <div class="part-title" [ngClass]="{appeared: isAppeared}"> {{cvPart.title}}</div>
         <div>
-            <img class="decoration right" [ngClass]="{visible: isVisible}"
+            <img class="decoration right" [ngClass]="{appeared: isAppeared}"
                 src="assets/images/decorators/right-decoration.png">
         </div>
     </div>

@@ -1,5 +1,6 @@
 import { Component, ElementRef, HostListener, Input } from '@angular/core';
 import { ITitledFillableContainer } from '../right-panel/right-panel.component';
+import { IEmerging } from '../../interfaces/animation-interfaces'
 
 
 @Component({
@@ -7,15 +8,15 @@ import { ITitledFillableContainer } from '../right-panel/right-panel.component';
   templateUrl: './cv-part.component.html',
   styleUrls: ['./cv-part.component.scss']
 })
-export class CvPartComponent {
+export class CvPartComponent implements IEmerging {
   static cvPartNumber: number = 0;
-  isVisible = false;
+  isAppeared: boolean = false;
 
   constructor(private element: ElementRef) {
     var num = ++CvPartComponent.cvPartNumber;
 
     if (num === 1) {
-      setTimeout(() => { this.isVisible = true; }, 700);
+      setTimeout(() => { this.isAppeared = true; }, 700);
     }
   }
 
@@ -29,7 +30,7 @@ export class CvPartComponent {
     const elementField = this.element.nativeElement.getBoundingClientRect();
 
     if (elementField.top < window.innerHeight) {
-      setTimeout(() => { this.isVisible = true; }, 500);
+      setTimeout(() => { this.isAppeared = true; }, 500);
     }
   }
 }
