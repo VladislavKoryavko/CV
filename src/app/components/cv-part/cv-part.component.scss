@@ -1,8 +1,8 @@
 .cv-part {
+    margin-bottom: 20px;
     transform: translateY(100px);
     opacity: 0;
     transition: all 0.8s ease 0s;
-    margin-bottom: 20px;
     box-shadow: -4px 7px 15px 1px rgba(0, 0, 0, 0.2);
     background-color: white;
     padding: 20px 20px 0;
@@ -18,17 +18,16 @@
 }
 
 .part-header {
+    margin: auto;
+    margin-bottom: 5px;
     justify-content: center;
     align-items: center;
     display: flex;
     text-align: center;
     font-size: 45px;
-    margin: auto;
-    margin-bottom: 5px;
     color: #2EB474;
     font-weight: bold;
     font-family: 'Cabin Sketch', cursive;
-    //font-family: 'Lobster', cursive;
 }
 
 .decoration {
@@ -66,9 +65,7 @@
     }
 }
 
-
 .part-body {
-    // font: 'Delius', cursive;
     font-weight: normal;
     font-size: 19px;
 }

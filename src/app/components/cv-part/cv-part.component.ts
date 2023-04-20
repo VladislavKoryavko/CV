@@ -1,6 +1,6 @@
 import { Component, ElementRef, HostListener, Input } from '@angular/core';
 import { ITitledFillableContainer } from '../right-panel/right-panel.component';
-import { IEmerging } from '../../interfaces/animation-interfaces'
+import { IEmerging } from "src/app/interfaces/IEmerging";
 
 
 @Component({
@@ -9,8 +9,6 @@ import { IEmerging } from '../../interfaces/animation-interfaces'
   styleUrls: ['./cv-part.component.scss']
 })
 export class CvPartComponent implements IEmerging {
-  static cvPartNumber: number = 0;
-  isAppeared: boolean = false;
 
   constructor(private element: ElementRef) {
     var num = ++CvPartComponent.cvPartNumber;
@@ -19,6 +17,9 @@ export class CvPartComponent implements IEmerging {
       setTimeout(() => { this.isAppeared = true; }, 700);
     }
   }
+  
+  static cvPartNumber: number = 0;
+  isAppeared: boolean = false;
 
   @Input() cvPart: ITitledFillableContainer = {
     title: '',

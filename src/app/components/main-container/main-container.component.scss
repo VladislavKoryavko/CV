@@ -1,5 +1,10 @@
 .container {
     display: flex;
+
+    @media (max-width: 700px) {
+        display: block;
+        text-align: center;
+    }
 }
 
 app-face-panel {
@@ -9,24 +14,4 @@ app-face-panel {
 #dividor {
     min-width: 2%;
     min-height: 20Px;
-}
-
-@media (max-width: 700px) {
-
-    .container {
-        display: block;
-        text-align: center;
-    }
-}
-
-@media (mix-width: 767px) {
-    .container {
-
-    }
-}
-
-@media (mix-width: 992px) {
-    .container {
-        
-    }
 }

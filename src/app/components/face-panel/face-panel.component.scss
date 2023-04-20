@@ -21,7 +21,6 @@
 }
 
 .fio {
-    // margin-top: 5px;
     font-size: 37px;
 }
 
@@ -31,9 +30,9 @@
 }
 
 .lang-img {
-    margin: 5px;
     width: 27px;
     height: 27px;
+    margin: 5px;
 }
 
 .contacts {
@@ -45,8 +44,8 @@
 }
 
 .contacts .material-icons {
-    font-size: 17px;
     margin-right: 5px;
+    font-size: 17px;
 }
 
 .contact-item {
@@ -56,9 +55,7 @@
     align-items: center;
 }
 
-
 @media (max-width: 700px) {
-    
     .info {
         max-width: 80%;
     }
