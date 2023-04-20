@@ -1,10 +1,11 @@
-<div class="cv-part-item">
+<div class="cv-part-item" [ngClass]="{appeared: isAppeared}">
     <div class="cv-part-item-title">{{ cvPartItem.title }}</div>
     <div class="cv-part-item-subtitle">{{ cvPartItem.subtitle }}</div>
     <div class="cv-part-item-paragraphHeading">{{ cvPartItem.paragraphHeading }}</div>
     <div class="cv-part-item-paragraph">{{ cvPartItem.paragraph }}</div>
     <div class="lists">
-        <app-list-with-text *ngFor="let listWithText of cvPartItem.listsWithText" [listWithText]="listWithText"></app-list-with-text>
+        <app-list-with-text *ngFor="let listWithText of cvPartItem.listsWithText"
+            [listWithText]="listWithText"></app-list-with-text>
     </div>
-    <img class="seporator" src="assets/images/decorators/hr.png" alt="">
 </div>
+<img class="seporator" [ngClass]="{appeared: isAppeared}" src="assets/images/decorators/hr.png" alt="">
