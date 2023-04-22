@@ -1,19 +1,23 @@
 .cv-part-item {
     text-align: center;
-    //font-family: 'Lobster', cursive;
+    font-weight: normal;
     font-family: 'Delius', cursive;
-    //font-family: 'Advent Pro', sans-serif;
+    opacity: 0;
+    transition: all 2s ease 0s;
+    transform: scale(0.5);
+
+    &.appeared {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .cv-part-item-title {
     font-size: 33px;
-    font-weight: normal;
-    //font-style: italic;
 }
 
 .cv-part-item-subtitle {
     font-size: 23px;
-    font-weight: normal;
     word-wrap: nowrap;
 }
 
@@ -26,12 +30,19 @@
 .cv-part-item-paragraph {
     margin-top: 5px;
     font-size: 21px;
-    font-weight: normal;
 }
 
 .seporator {
     margin: 20px 10%;
     width: 80%;
+    opacity: 0;
+    transition: all 5s ease 0s;
+    transform: scale(0.1);
+
+    &.appeared {
+        transform: scale(1);
+        opacity: 1;
+    }
 
     @media (max-width: 700px) {
         margin: 2% 0;

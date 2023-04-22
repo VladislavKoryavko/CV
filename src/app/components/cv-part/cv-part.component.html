@@ -1,0 +1,19 @@
+<div class="cv-part" [ngClass]="{appeared: isAppeared}">
+    <div class="part-header">
+        <div>
+            <img class="decoration left" [ngClass]="{appeared: isAppeared}"
+                src="assets/images/decorators/left-decoration.png">
+        </div>
+        <div class="part-title" [ngClass]="{appeared: isAppeared}"> {{cvPart.title}}</div>
+        <div>
+            <img class="decoration right" [ngClass]="{appeared: isAppeared}"
+                src="assets/images/decorators/right-decoration.png">
+        </div>
+    </div>
+    <div class="part-body">
+        <app-cv-part-item *ngFor="let cvPartItem of cvPart.cvPartItems" [cvPartItem]="cvPartItem"></app-cv-part-item>
+    </div>
+    <div class="hobby">
+        <app-cv-part-icon *ngFor="let cvPartIcon of cvPart.cvPartIcons" [cvPartIcon]="cvPartIcon"></app-cv-part-icon>
+    </div>
+</div>

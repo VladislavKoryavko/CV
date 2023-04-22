@@ -46,7 +46,7 @@ export class RightPanelComponent {
       title: $localize`:@@welcome:Welcome!`,
       cvPartItems: [{
         title: $localize`:@@localized-id-about-me:About me`,
-        // paragraphHeading: $localize`:@@my-name:My name is Vladislav, and I am a Programmer`,
+        paragraphHeading: $localize`:@@about-me-text:I am a responsible and hardworking person. In people I appreciate justice, kindness, the desire for self-development and a positive attitude. I love nature, travel and science!`,
         paragraph: $localize`:@@about-me-tex:Since childhood, programming and exact sciences have been my passion. In many of them, I won prizes both at school and city Olympiads. The first practical application of my knowledge was the creation of various electronic devices based on microcontrollers. While studying at the Polytechnic, I had the opportunity to participate in competitions of scientific and technical creativity, where, having passed the district and regional stages, I won a prize in the Republican competitions. Over time, the hobby grew into a job, during which I happened to use many advanced programming and microelectronic technologies. Once, having accepted an offer that was interesting to me, I left my passion for a while and plunged into a new path of management with great interest. For four years, I served as an assistant to the general director in a trading and manufacturing company. Planning the work process, business correspondence, preparing meetings and conferences, setting tasks, and monitoring their implementation, have become my daily activities. In the flow of multitasking, my tourist soul was always especially pleased with the next training camp and preparation for our wonderful team building, which, with the light hand of our beloved Director, constantly took place in new and always exotic places. Having gained experience, I decided to try my hand at business and went on a free voyage. Having successfully completed one ambitious order, my short voyage was interrupted by the coronavirus pandemic. Under these conditions, having received job offers, I accepted it, deciding not to tempt fate in the coming unpredictable economic situation. After that, I had the opportunity to create an automated system for managing and controlling business processes, write software for a wide range of laboratory installations, and develop a backend for modern Internet applications.`
       }]
     },
@@ -98,7 +98,7 @@ export class RightPanelComponent {
     {
       title: $localize`:@@skills:Skills`,
       cvPartItems: [{
-        subtitle: 'C, C++, std, stl, C#, .Net framework, .Net Core, Entity Framework, NuGet, SQL, T-SQL, SQLite, Redis, Elasticsearch, Git, SourceTree, Docker, CI/CD, VS, VS Code, Rider, Swagger, Postman, AWS, DI, WPF, WVC, MVVM, OOP, Patterns, JavaScript, TypeScript, Angular, HTML, YAML, DOM, CSS, SCSS, HTTP, RESTful, VBA, 1C'
+        subtitle: 'C, C++, std, stl, C#, .Net framework, .Net Core, Entity Framework, NuGet, SQL, T-SQL, SQLite, Redis, Elasticsearch, JavaScript, TypeScript, Angular, HTML, YAML, DOM, CSS, SCSS, HTTP, RESTful, Git, SourceTree, Docker, CI/CD, VS, VS Code, Rider, Swagger, Postman, AWS, DI, WPF, WVC, MVVM, OOP, Patterns, VBA, 1C'
       }]
     },
     {

@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+
+    @media (max-width: 700px) {
+        display: block;
+        text-align: center;
+    }
+}
+
+app-face-panel {
+    min-width: 250px;
+}
+
+#dividor {
+    min-width: 2%;
+    min-height: 20Px;
+}

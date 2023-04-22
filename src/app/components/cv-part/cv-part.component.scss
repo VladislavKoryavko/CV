@@ -1,8 +1,16 @@
 .cv-part {
     margin-bottom: 20px;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
     box-shadow: -4px 7px 15px 1px rgba(0, 0, 0, 0.2);
     background-color: white;
     padding: 20px 20px 0;
+
+    &.appeared {
+        transform: translate(0);
+        opacity: 1;
+    }
 
     @media (max-width: 700px) {
         padding: 5% 5% 0;
@@ -10,36 +18,54 @@
 }
 
 .part-header {
+    margin: auto;
+    margin-bottom: 5px;
     justify-content: center;
     align-items: center;
     display: flex;
     text-align: center;
     font-size: 45px;
-    margin: auto;
-    margin-bottom: 5px;
     color: #2EB474;
     font-weight: bold;
     font-family: 'Cabin Sketch', cursive;
-    //font-family: 'Lobster', cursive;
 }
 
 .decoration {
     height: 29px;
     max-width: 100%;
+    opacity: 0;
+    transition: all 1.8s ease 0s;
+
+    &.left {
+        transform: translateX(-50%);
+    }
+
+    &.right {
+        transform: translateX(50%);
+    }
+
+    &.appeared {
+        transform: translate(0);
+        opacity: 1;
+    }
 }
 
 .part-title {
     margin: 0px 15px 7px;
     line-height: 80%;
+    transition: all 1.5s ease 0s;
+    transform: translateY(-33%) scale(1.5);
+
+    &.appeared {
+        transform: translate(0) scale(1);
+    }
 
     @media (max-width: 700px) {
         margin: 0px 2% 1%;
     }
 }
 
-
 .part-body {
-    // font: 'Delius', cursive;
     font-weight: normal;
     font-size: 19px;
 }
