@@ -52,7 +52,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="work-description-tulaco" datatype="html">
-        <source>Developed back-end applications for hhglobal.com and stylerow.com projects. My responsibilities included writing RESTful API contracts and implementing them, creating and changing application logic, modifying the database and writing stored procedures, implementing caching, migrating from .NET Core 3.1 to .NET Core 6.0, setting up Docker. Worked with technologies:C#, .NET Core 3.1 - 6.0, Entity Framework, T-SQL, Elasticsearch, Redis, Git, Docker, Swagger, Postman, AWS, QuickBooks, Pardot, Twilio</source>
+        <source>Developed back-end applications for hhglobal.com and stylerow.com projects. My responsibilities included writing RESTful API contracts and implementing them, creating and changing application logic, modifying the database and writing stored procedures, implementing caching, migrating from .NET Core 3.1 to .NET Core 6.0, setting up Docker. Worked with C#, .NET Core 3.1 – 6.0, Entity Framework, XUnit, AutoMapper, MediatR, T-SQL, Elasticsearch, Redis, Git, Docker, DDD, Agile, Scrum, Swagger, Postman, AWS, QuickBooks, Pardot, Twilio.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/right-panel/right-panel.component.ts</context>
           <context context-type="linenumber">59</context>
