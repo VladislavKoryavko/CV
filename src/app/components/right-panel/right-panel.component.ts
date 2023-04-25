@@ -56,7 +56,7 @@ export class RightPanelComponent {
         title: 'TULACO',
         subtitle: '2022 - 2023',
         paragraphHeading: $localize`:@@work-position-tulaco:Backend Developer`,
-        paragraph: $localize`:@@work-description-tulaco:Developed back-end applications for hhglobal.com and stylerow.com projects. My responsibilities included writing RESTful API contracts and implementing them, creating and changing application logic, modifying the database and writing stored procedures, implementing caching, migrating from .NET Core 3.1 to .NET Core 6.0, setting up Docker. Worked with technologies:C#, .NET Core 3.1 - 6.0, Entity Framework, T-SQL, Elasticsearch, Redis, Git, Docker, Swagger, Postman, AWS, QuickBooks, Pardot, Twilio`
+        paragraph: $localize`:@@work-description-tulaco:Developed back-end applications for hhglobal.com and stylerow.com projects. My responsibilities included writing RESTful API contracts and implementing them, creating, and changing application logic, code refactoring, writing unit tests, modifying the database, and writing stored procedures, implementing caching with Redis and fast searching with Elasticsearch, migrating from .NET Core 3.1 to .NET Core 6.0, adjusting Dockerfile and Docker Compose. Worked with C#, .NET Core 3.1 – 6.0, Entity Framework, XUnit, AutoMapper, MediatR, T-SQL, Elasticsearch, Redis, Git, Docker, DDD, Agile, Scrum, Swagger, Postman, AWS, QuickBooks, Pardot, Twilio.`
       },
       {
         title: $localize`:@@work-name-didactika:Didactika`,
